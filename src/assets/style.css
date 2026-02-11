@@ -2,4 +2,98 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(34, 33, 33);
+}
+
+.dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+  padding: 2% 8%;
+}
+.dashboard__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 1500px;
+  justify-content: start;
+}
+.dashboard__input {
+  font-size: 16px;
+  padding: 15px 20px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  outline: none;
+  background-color: rgb(92, 88, 88);
+  width: 100%;
+  max-width: 800px;
+}
+.dashboard__input::-moz-placeholder {
+  color: rgb(182, 181, 181);
+}
+.dashboard__input::placeholder {
+  color: rgb(182, 181, 181);
+}
+.dashboard__search {
+  border: none;
+  padding: 9px 10px;
+  border-radius: 50px;
+  background-color: rgb(10, 74, 148);
+  color: white;
+  font-weight: 600;
+}
+.dashboard__search:hover {
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  max-width: 1000px;
+}
+.cards__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: start;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  padding: 10px 0px;
+}
+.cards__item-img {
+  width: 30%;
+  height: 10%;
+  color: white;
+  font-family: sans-serif;
+}
+.cards__item-title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+.cards__item-des {
+  font-family: sans-serif;
+  color: rgb(206, 206, 206);
+}
+.cards__item-year {
+  background-color: rgb(31, 31, 153);
+  padding: 4px 8px;
+  border-radius: 50px;
+  color: white;
+  font-family: sans-serif;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,45 @@
+.cards {
+  @include display();
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  max-width: 1000px;
+  // gap: 10px;
+
+  &__item {
+    @include display();
+    // flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+    flex-wrap: wrap;
+    // background-color: red;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+  }
+
+  &__item-img {
+    width: 30%;
+    height: 10%;
+    color: white;
+    font-family: sans-serif;
+  }
+
+  &__item-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+  }
+
+  &__item-des {
+    font-family: sans-serif;
+    color: rgb(206, 206, 206);
+  }
+
+  &__item-year {
+    background-color: rgb(31, 31, 153);
+    padding: 4px 8px;
+    border-radius: 50px;
+    color: white;
+    font-family: sans-serif;
+  }
+}
